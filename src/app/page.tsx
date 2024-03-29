@@ -1,4 +1,10 @@
+import Link from 'next/link'
+
 function HomePage() {
-  return <h1>Hello, I am Muhammad Awais and this is my first Next.js project.</h1>
+  return (
+    <main  >
+      <Link  className='overline'  href="/name">go to name</Link>
+    </main>
+  )
 }
-export default HomePage;
+export default HomePage; 
