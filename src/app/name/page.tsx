@@ -2,7 +2,8 @@
 import {useRouter} from 'next/navigation'
 // import style from './page.module.css'
 export default function name(){
-    let router = useRouter();
+    let router = useRouter(); 
+    
     return (
         <main>
             <button className='bg-white	 border-solid border-2 border-black	rounded p-px' onClick={()=>router.back()}>Go to Back</button>
